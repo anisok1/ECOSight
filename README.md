@@ -132,12 +132,6 @@ trainer.fit(graph_list, save_path="models/b05_model.pth")
 - **节点类型**：`inpin`（输入引脚）、`outpin`（输出引脚）
 - **边类型**：`inpin -> cell -> outpin`（单元边）、`outpin -> net -> inpin`（网络边）
 
-### 敏感性分析
-
-支持两种分析方法：
-- **梯度法**：基于反向传播梯度
-- **特征遮掩法**：逐特征遮掩
-
 ## 参考论文
 
 **ECOSight: an explainable graph AI tool for automated decision making in timing ECO**
@@ -148,10 +142,6 @@ trainer.fit(graph_list, save_path="models/b05_model.pth")
 
 Daheng LE, Pengcheng HUANG, Chiyuan MA, Zhenyu ZHAO. ECOSight: an explainable graph AI tool for automated decisionmaking in timing ECO. Front. Comput. Sci., 2026, DOI: 10.1007/s11704-026-51891-6
 
-
-## 许可证
-
-MIT License
 
 ## 联系方式
 
